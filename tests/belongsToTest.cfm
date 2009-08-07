@@ -1,3 +1,4 @@
+<!--- Testing build system! --->
 <cfset Arash = createObject('component', 'supermodel.tests.User') />
 <cfset Arash.init('supermodel') />
 <cfset Arash.read(2) />
