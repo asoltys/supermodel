@@ -153,7 +153,9 @@
 
 		<cfif valid()>
 				<cfset insertQuery() />
+				<cfif structKeyExists(this,'id')>
 				<cfset read(this.id) />
+				</cfif>
 		</cfif>
 
 		<cfreturn this />
